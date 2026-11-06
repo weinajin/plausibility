@@ -1,4 +1,5 @@
-# Why is plausibility surprisingly problematic as an XAI criterion?
+# Stop Using Plausibility as the Criterion for Explainable AI
+Weina Jin, Xiaoxiao Li, Ghassan Hamarneh
 
 This is the empirical data analysis code for [our work that examines the plausibility criterion in explainable artificial intelligence](#cite). 
 
@@ -6,18 +7,19 @@ This is the empirical data analysis code for [our work that examines the plausib
 
 ```
 ├── code
-│   ├── 1_plausibility_local_trust_hypthesis_test.ipynb                    # Data analysis code for Section 6.1
-│   └── 2_plausibility_decision_generalization.ipynb                       # Data analysis code for Section 6.2 and 6.3
-├── data                    # Study data used in the empirical analysis
+│   ├── 1_plausibility_local_trust_hypthesis_test.ipynb                    # Data analysis code for Section G.1
+│   └── 2_plausibility_decision_generalization.ipynb                       # Data analysis code for Section G.2
+│   └── 3_simulation_of_theorems.ipynb.ipynb                               # Data analysis visualization code for Section G.3
+│   └── 4_theorem2_empirical_data.ipynb                                    # Data analysis visualization code for Section G.3
+│   └── simulation_of_theorems.py                                          # Additional data analysis code that is not included in the paper
+├── data                                                                   # Study data used in the empirical analysis
 └── README.md
 ```
-
 
 
 <a name="cite"></a>
 ## Cite
 
-This paper describes the review and implementation of the included post-hoc explanation algorithms.
 ```bibtext
 
 ```
